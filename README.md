@@ -1,8 +1,18 @@
-# Rocketseat Bootcamp GoStack 9.0
+<h1 align="center">
+	Rocketseat Bootcamp GoStack 9.0
+</h1>
 
-> Módulo 01 do Bootcamp GoStack da Rocketseat
+<blockquote align="center">
+	Módulo 01 do Bootcamp GoStack da Rocketseat
+</blockquote>
 
-![Node.js Version](https://img.shields.io/badge/node.js-v13.12.0-green?style=flat-square) ![NPM Version](https://img.shields.io/badge/npm-v6.14.4-critical?style=flat-square) ![YARN Version](https://img.shields.io/badge/yarn-v1.19-blue?style=flat-square)
+<p align="center">
+	<a href="_blank">
+		<img alt="Node.js Version" src="https://img.shields.io/badge/node.js-v13.12.0-green?style=flat-square">
+	</a>
+	<img alt="NPM Version" src="https://img.shields.io/badge/npm-v6.14.4-critical?style=flat-square">
+	<img alt="YARN Version" src="https://img.shields.io/badge/yarn-v1.19-blue?style=flat-square">
+</p>
 
 Neste módulo é apresentado os conceitos do Node.js e API Rest colocando-os em prática através do desenvolvimento de uma simples API Rest
 
