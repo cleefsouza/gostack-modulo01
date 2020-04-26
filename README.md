@@ -12,6 +12,7 @@ Neste módulo é apresentado os conceitos do Node.js e API Rest colocando-os em 
 
 ## Dependências
 - express `4.16.4`
+- nodemon `2.0.3`
 
 ## Configuração para Desenvolvimento
 
@@ -29,8 +30,56 @@ npm install | yarn update
 
 Com as depedências atualizadas, execute o comando
 ```sh
-node index.js
-``` 
+yarn dev
+```
+
+## Rotas
+
+#### Obter todos os usuários
+
+```http
+GET /users HTTP/1.1
+Host: localhost:3000
+```
+
+#### Obter usuário
+
+```http
+GET /users/1 HTTP/1.1
+Host: localhost:3000
+```
+#### Adicionar usuário
+
+```http
+POST /users HTTP/1.1
+Content-Type: application/json
+Host: localhost:3000
+Content-Length: 21
+
+{
+	"name": "Junior"
+}
+```
+
+#### Editar usuário
+
+```http
+PUT /users/2 HTTP/1.1
+Content-Type: application/json
+Host: localhost:3000
+Content-Length: 19
+
+{
+	"name": "Yumi"
+}
+```
+
+#### Remover usuário
+
+```http
+DELETE /users/1 HTTP/1.1
+Host: localhost:3000
+```
 
 ## Meta
 
